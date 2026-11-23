@@ -14,3 +14,9 @@
 .post-content img{display:block;width:auto;height:auto;max-width:min(100%,100vw);margin:24px auto}
 .post-content{width:min(900px,calc(100% - 40px));margin-inline:auto}
 #main p,#main li{text-align:justify}
+.hero-inner{text-align:center}
+.hero h1{max-width:none;font-size:52px}
+.hero p{margin-inline:auto}
+@media(max-width:800px){.hero h1{font-size:36px}}
+@media(max-width:500px){.hero h1{font-size:32px}}
+@media(max-width:375px){.hero h1{font-size:31px}}
