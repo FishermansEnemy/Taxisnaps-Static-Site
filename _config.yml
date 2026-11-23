@@ -1,0 +1,12 @@
+title: TaxiSnaps
+email: info@taxisnaps.co.uk
+url: https://taxisnaps.co.uk
+baseurl: ""
+permalink: pretty
+exclude:
+  - "*.wpress"
+  - "source_*.css"
+  - "source_*.php"
+  - README.md
+  - Gemfile
+  - Gemfile.lock

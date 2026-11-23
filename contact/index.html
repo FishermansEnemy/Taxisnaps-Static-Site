@@ -1,0 +1,36 @@
+---
+layout: default
+title: Contact TaxiSnaps
+description: Contact TaxiSnaps to ask about photo booth hire for your wedding, party, prom or corporate event.
+---
+<div class="page-banner"><div class="wrap"><h1>Contact</h1></div></div>
+<article class="wrap page-content">
+  <p class="content-lead">Tell us about your event and we’ll prepare a no-obligation quote.</p>
+  <div class="contact-card"><h2>TaxiSnaps Limited</h2><p>Columbus Avenue<br>Brierley Hill<br>West Midlands<br>DY5 1TW</p><p><strong>Telephone:</strong> <a href="tel:07493693639">07493 693 639</a><br><strong>Email:</strong> <a href="mailto:info@taxisnaps.co.uk">info@taxisnaps.co.uk</a></p></div>
+  <div class="notice"><strong>Privacy and sending:</strong> This form does not submit data to a server. It prepares a message in your own email application; nothing is sent until you review and send it there. If your device does not have an email application configured, use the telephone number or email link above.</div>
+  <form class="contact-form" data-contact-form>
+    <fieldset><legend>Your details</legend>
+      <label for="prefix">Title (optional)</label><select id="prefix" name="prefix"><option value="">Select</option><option>Mr</option><option>Mrs</option><option>Miss</option><option>Ms</option><option>Dr</option><option>Prof.</option><option>Rev.</option></select>
+      <div class="form-row"><div><label for="first-name">First name *</label><input id="first-name" name="first-name" autocomplete="given-name" required></div><div><label for="last-name">Last name *</label><input id="last-name" name="last-name" autocomplete="family-name" required></div></div>
+      <label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" required>
+      <label for="telephone">Telephone *</label><input id="telephone" name="telephone" type="tel" autocomplete="tel" required>
+    </fieldset>
+    <fieldset><legend>Event details</legend>
+      <span class="field-label">Which service are you interested in? *</span>
+      <label class="choice"><input type="checkbox" name="service" value="Taxi Photobooth"> Taxi Photobooth</label>
+      <label class="choice"><input type="checkbox" name="service" value="Magic Mirror"> Magic Mirror</label>
+      <span class="field-label">Preferred hire duration *</span>
+      <label class="choice"><input type="radio" name="duration" value="2 Hour Hire" required> 2 Hour Hire</label>
+      <label class="choice"><input type="radio" name="duration" value="3 Hour Hire"> 3 Hour Hire</label>
+      <label class="choice"><input type="radio" name="duration" value="4 Hour Hire"> 4 Hour Hire</label>
+      <label class="choice"><input type="radio" name="duration" value="5 Hour Hire"> 5 Hour Hire</label>
+      <label for="venue">Venue name/postcode *</label><input id="venue" name="venue" autocomplete="off" required>
+      <label for="date">Date required *</label><input id="date" name="date" type="date" required>
+    </fieldset>
+    <fieldset><legend>Marketing preferences</legend><label class="choice"><input type="checkbox" name="marketing" value="Yes"> Yes please. I’d love to hear about special offers and discounts.</label><p class="form-note">Optional. This preference is included in the email draft only when you select it.</p></fieldset>
+    <button class="button button-green" type="submit">Prepare email enquiry</button>
+    <p class="form-note">Your browser will open a draft email addressed to TaxiSnaps. You can review, change or discard it before sending.</p>
+    <p class="form-status" data-contact-status role="status" aria-live="polite"></p>
+  </form>
+</article>
+<script src="{{ '/assets/js/contact.js' | relative_url }}" defer></script>

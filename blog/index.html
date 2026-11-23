@@ -1,0 +1,6 @@
+---
+layout: default
+title: Wedding Blog & Event Inspiration
+description: Wedding ideas, party inspiration and photo booth news from TaxiSnaps.
+---
+<div class="page-banner"><div class="wrap"><h1>Wedding Blog</h1></div></div><article class="wrap page-content"><p class="content-lead">Ideas, tips and inspiration for weddings, parties and celebrations.</p><div class="article-list">{% for post in site.posts %}<article class="article-card"><a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}"></a><div><p class="article-meta">{{ post.date | date: '%-d %B %Y' }}</p><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.excerpt | strip_html | truncate: 145 }}</p><a href="{{ post.url | relative_url }}">Read article →</a></div></article>{% endfor %}</div></article>

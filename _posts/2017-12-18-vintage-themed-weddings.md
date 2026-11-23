@@ -1,0 +1,28 @@
+---
+layout: default
+title: "Vintage Themed Weddings"
+date: 2017-12-18
+image: /assets/images/wedding-archive/vintage-themed-weddings/featured-vintage_themed_weddings-300x100.png
+description: "Every year people are coming up with new themes for an exciting take on the traditional style wedding. In recent years, one of the most popular themes has "
+permalink: /wedding/vintage-themed-weddings/
+---
+
+![Vintage Themed Weddings]({{ '/assets/images/wedding-archive/vintage-themed-weddings/featured-vintage_themed_weddings-300x100.png' | relative_url }})
+
+# Vintage Themed Weddings
+
+<p class="article-meta">18th December 2017</p>
+
+<p><span style="font-weight: 400;">Every year people are coming up with new themes for an exciting take on the traditional style wedding. In recent years, one of the most popular themes has been vintage. From the décor and reception to the dress and transport, we have seen classic cars, antique items and even retro table centrepieces.  </span></p>
+<p><span style="font-weight: 400;">But, the problem is that everyone is running out of unique and creative ideas for the vintage theme. What is the fun in having something you have seen before, such as old teacups and antique bird cages? After all, you want something that is going to make your wedding special and one to remember for the guests, while adding to your vintage theme.</span></p>
+<p><span style="font-weight: 400;">Don’t worry; we have the perfect solution and that is a Taxi Snap Photo Booth. This has got to be the best way to complement your vintage theme and be the attraction of the night; after the bride, of course!  </span></p>
+<h2><b>Vintage British Taxi</b></h2>
+<p><span style="font-weight: 400;">The classic Hackney carriage is famous around the world and everyone knows what a British taxi looks like when it is around town. Now you can have one as an addition to your wedding day! Our taxi rocks the retro styling on the outside since it is authentic and used to run around the streets of London. It doesn’t get any more vintage than that! But, to make it special for your wedding, we have renovated it and resprayed it white to make a beautiful feature on the big day. Hang on, there is one more surprise; there is also a photo booth </span><i><span style="font-weight: 400;">inside</span></i><span style="font-weight: 400;"> the taxi!</span></p>
+<h2><b>Retro Style Photographs</b></h2>
+<p><span style="font-weight: 400;">Photos are timeless and they are definitely a must on your wedding day. So, do yourself a favourite and not only choose a unique and quirky addition to the décor, but also save yourself the hassle of finding a photographer! Inside our Taxi Snap Photo Booth there is an advanced DSLR camera to take high-quality photographs throughout the day with family and friends. All your guests have to do is climb into the back and use the interactive touch screen to pose for photos with their favourite people. In fact, there has never been a taxi so vintage, yet so high-tech at the same time! you can expect better quality than standard photo booths. </span><span style="font-weight: 400;">Plus, all photos can be customised with text, graphics and logos of your choice. This means you can have your new surname printed on the photos or a special vintage wedding greeting for your guests; you can decide. The interactive touchscreen and the outside of the taxi can be customised too!</span></p>
+<p>&nbsp;</p>
+<h2><b>Timeless Memento</b></h2>
+<p><span style="font-weight: 400;">You want to make sure your <a href="{{ '/wedding-photo-booth-hire/' | relative_url }}">vintage wedding</a> is remembered by everyone for years to come. This is easy with Taxi Snap Photo Booth, as guests can take home as many photo prints from the day as they want. All our packages offer unlimited prints to customers, which means there is never a limit on how many times your guests can take photos in the classic British taxi. They are welcome to take a memento home and keep it in their wallet or put it into a frame. </span>For the special bride and groom, you can look back fondly on your vintage wedding day with a complimentary photo memory book on us. This is where friends and family can take photos and insert them into the memory book and write lovely messages for you after your special day. This is definitely something you will treasure in years to come. What’s more, we also provide you with all of the images from the day onto a USB stick so you can keep them. Isn’t that great?</p>
+<p>&nbsp;</p>
+<h2><b>Classic Props</b></h2>
+<p><span style="font-weight: 400;">If everyone hasn’t quite dressed for a vintage themed wedding, you can make sure they jazz their outfit up with our fun and an entertaining box of props! You will find a range of hilarious hats, large glasses and 90s moustaches that will have your guests laughing for hours on end. There is sure to be an accessory to match everyone’s outfit! Of course, this will also make great photos for you to share on social media later on. </span><span style="font-weight: 400;">In fact, in the Taxi Snap Photo Booth, you can also shoot videos during the big day. You can all jump in the classic Hackney carriage and create your own video message. This is shot in HD and you will definitely find some amusing messages from your guests after the wedding! If anyone is missing the wedding of the year, you can upload the video live to social media so everyone can see. </span><span style="font-weight: 400;">There you have it; the best way to add a unique and fun feature to your vintage themed wedding. I guess our <a href="{{ '/wedding-photo-booth-hire/' | relative_url }}">Taxi Snap Photo Booth</a> could be your ‘something old’ and ‘something borrowed too!</span></p>

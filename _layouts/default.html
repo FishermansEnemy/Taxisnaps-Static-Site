@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: 'TaxiSnaps photo booth hire for weddings, parties and corporate events across the West Midlands.' | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <div class="topline"><div class="wrap topline-inner"><span>Photo booth hire for weddings, parties &amp; events</span><div><a href="tel:07493693639">07493 693 639</a><span class="divider">|</span><a href="mailto:info@taxisnaps.co.uk">info@taxisnaps.co.uk</a></div></div></div>
+  <div class="mobile-header"><button class="mobile-menu-toggle" type="button" aria-controls="mobile-navigation" aria-expanded="false" aria-label="Open navigation"><span class="menu-icon" aria-hidden="true">☰</span></button><a class="mobile-brand" href="{{ '/' | relative_url }}" aria-label="TaxiSnaps home"><img src="{{ '/assets/images/ts_logo_large2-1.png' | relative_url }}" alt="TaxiSnaps"></a><a class="mobile-quote" href="{{ '/contact/' | relative_url }}">Get a Quote</a></div>
+  <header class="site-header">
+    <div class="brand-row wrap"><a class="brand" href="{{ '/' | relative_url }}" aria-label="TaxiSnaps home"><img src="{{ '/assets/images/ts_logo_large2-1.png' | relative_url }}" alt="TaxiSnaps"></a><div class="endorsements"><img src="{{ '/assets/images/hitched_logo.png' | relative_url }}" alt="As featured on Hitched"><img src="{{ '/assets/images/rated_wedding.png' | relative_url }}" alt="Rated Wedding"></div></div>
+    <nav class="main-nav" id="mobile-navigation" aria-label="Main navigation"><div class="wrap nav-inner"><div class="nav-group"><a class="nav-label" href="{{ '/wedding-photo-booth-hire/' | relative_url }}">Weddings</a><div class="nav-dropdown"><a href="{{ '/taxi-photo-booth-hire/' | relative_url }}">Taxi Photo Booth Hire</a><a href="{{ '/indoor-photo-booth-hire/' | relative_url }}">Indoor Booth</a><a href="{{ '/love-letters/' | relative_url }}">Love Letters</a><a href="{{ '/garden-games/' | relative_url }}">Garden Games</a><a href="{{ '/magic-mirror-photo-booth-hire/' | relative_url }}">Magic Mirror</a><a href="{{ '/hashtag-printer/' | relative_url }}">Hashtag Printer</a></div></div><a href="{{ '/corporate-photo-booth-hire/' | relative_url }}">Corporate</a><div class="nav-group"><a class="nav-label" href="{{ '/photobooth-for-birthday-parties/' | relative_url }}">Private Functions</a><div class="nav-dropdown"><a href="{{ '/photobooth-for-birthday-parties/' | relative_url }}">Birthday Parties</a><a href="{{ '/photobooth-hire-for-prom-nights/' | relative_url }}">Prom Nights</a></div></div><a href="{{ '/gallery/' | relative_url }}">Gallery</a><a href="{{ '/blog/' | relative_url }}">Blog</a><div class="nav-more"><a href="{{ '/about/' | relative_url }}">About</a><a href="{{ '/faq/' | relative_url }}">FAQ’s</a><a href="{{ '/contact/' | relative_url }}">Contact</a></div></div></nav>
+    <nav class="subnav" aria-label="More services"><div class="wrap"><span>Weddings:</span><a href="{{ '/taxi-photo-booth-hire/' | relative_url }}">Taxi Photo Booth</a><a href="{{ '/indoor-photo-booth-hire/' | relative_url }}">Indoor Booth</a><a href="{{ '/love-letters/' | relative_url }}">Love Letters</a><a href="{{ '/garden-games/' | relative_url }}">Garden Games</a><a href="{{ '/magic-mirror-photo-booth-hire/' | relative_url }}">Magic Mirror</a><a href="{{ '/hashtag-printer/' | relative_url }}">Hashtag Printer</a><span class="subnav-private"><a href="{{ '/photobooth-for-birthday-parties/' | relative_url }}">Birthday Parties</a><a href="{{ '/photobooth-hire-for-prom-nights/' | relative_url }}">Prom Nights</a></span></div></nav>
+  </header>
+  <main id="main"{% if page.permalink contains '/wedding/' %} class="post-content"{% endif %}>{{ content }}</main>
+  <section class="quote-band"><div class="wrap quote-inner"><div><h2>Ready to make your event unforgettable?</h2><p>Get in touch for a no-obligation quote.</p></div><a class="button button-dark" href="{{ '/contact/' | relative_url }}">Get a Quote</a></div></section>
+  <footer class="site-footer"><div class="wrap footer-columns"><section><h3>Quick Links</h3><a href="{{ '/wedding-photo-booth-hire/' | relative_url }}">Weddings</a><a href="{{ '/corporate-photo-booth-hire/' | relative_url }}">Corporate</a><a href="{{ '/photobooth-for-birthday-parties/' | relative_url }}">Private Functions</a><a href="{{ '/gallery/' | relative_url }}">Gallery</a></section><section><h3>Information</h3><a href="{{ '/about/' | relative_url }}">About</a><a href="{{ '/faq/' | relative_url }}">FAQ’s</a><a href="{{ '/blog/' | relative_url }}">Blog</a><a href="{{ '/terms-conditions/' | relative_url }}">Terms &amp; Conditions</a><a href="{{ '/privacy-policy/' | relative_url }}">Privacy &amp; Cookies</a></section><section><h3>Contact Details</h3><p>TaxiSnaps Limited<br>Columbus Avenue<br>Brierley Hill, West Midlands<br>DY5 1TW</p><a href="tel:07493693639">07493 693 639</a><a href="mailto:info@taxisnaps.co.uk">info@taxisnaps.co.uk</a></section><section><h3>Follow Us</h3><p>Follow TaxiSnaps for event inspiration, photo booth news and recent celebrations.</p><a href="https://www.facebook.com/TaxiSnaps/" rel="noopener">Facebook</a></section></div><div class="footer-bottom"><div class="wrap footer-bottom-inner"><span>© {{ site.time | date: '%Y' }} TaxiSnaps. Website by <a href="https://ribbledigital.co.uk/" rel="noopener">Ribble Digital</a></span><span><a href="{{ '/sitemap/' | relative_url }}">Sitemap</a><a href="{{ '/terms-conditions/' | relative_url }}">Terms &amp; Conditions</a><a href="{{ '/privacy-policy/' | relative_url }}">Privacy &amp; Cookies</a></span></div></div></footer>
+  <script>
+    (() => {
+      const toggle = document.querySelector('.mobile-menu-toggle');
+      const navigation = document.querySelector('#mobile-navigation');
+      if (!toggle || !navigation) return;
+      const mobile = window.matchMedia('(max-width: 800px)');
+      const setMenu = isOpen => {
+        toggle.setAttribute('aria-expanded', String(isOpen));
+        toggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+        toggle.querySelector('.menu-icon').textContent = isOpen ? '×' : '☰';
+        navigation.classList.toggle('is-open', isOpen);
+      };
+      toggle.addEventListener('click', () => setMenu(toggle.getAttribute('aria-expanded') !== 'true'));
+      navigation.addEventListener('click', event => {
+        if (event.target.closest('a')) setMenu(false);
+      });
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') setMenu(false);
+      });
+      mobile.addEventListener('change', () => setMenu(false));
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Private WordPress migration archives may contain contact submissions and credentials.
+*.wpress
+/source_*.css
+/source_*.php
+
+# Local build output.
+_site/
+Gemfile.lock
