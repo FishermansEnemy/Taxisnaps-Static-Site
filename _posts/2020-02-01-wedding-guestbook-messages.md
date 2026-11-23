@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What NOTS to Write in Your Friend’s Wedding Guestbook
+title: What NOT to Write in Your Friend’s Wedding Guestbook
 date: 2020-02-01
 image: /assets/images/what-not-to-write-in-guestbook.jpg
 description: Keep your wedding guestbook message kind and memorable with these tips on what to avoid.
