@@ -21,7 +21,7 @@ Alternatively, GitHub Actions builds the site with GitHub Pages’ Jekyll enviro
 
 1. Create a GitHub repository for the site and push these files to its `main` branch.
 2. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source.
-3. The workflow at `.github/workflows/pages.yml` builds and deploys on each push to `main`; **Actions** shows the result and published URL.
+3. The workflow at `pages build and deployment` created by the GitHu pages integration builds and deploys on each push to `main`; **Actions** shows the result and published URL.
 4. For a custom domain, configure it under **Settings → Pages** and point the domain’s DNS records at GitHub Pages. Keep `_config.yml`’s `url` in sync with the production domain if it changes.
 
 For a project site hosted at `username.github.io/repository`, set `baseurl: "/repository"` in `_config.yml` before publishing. The current blank `baseurl` is intended for the root domain `https://taxisnaps.co.uk` or a user/organisation site.
