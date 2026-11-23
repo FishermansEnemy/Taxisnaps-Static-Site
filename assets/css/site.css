@@ -13,4 +13,4 @@
 .post-content .wp-caption{max-width:100%;width:auto!important;height:auto;margin:24px auto;text-align:justify}
 .post-content img{display:block;width:auto;height:auto;max-width:min(100%,100vw);margin:24px auto}
 .post-content{width:min(900px,calc(100% - 40px));margin-inline:auto}
-.page-content p,.page-content li,.post-content p,.post-content li{text-align:justify}
+#main p,#main li{text-align:justify}
